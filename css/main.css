@@ -11,13 +11,13 @@
 .section1 .item h2{
 	margin-bottom: 20px;
 }
-.section1 .item h2:after{
+/*.section1 .item h2:after{
 	content: '';
 	display: block;
 	width: 3em;
 	height: 2px;
 	background-color: #fa0;
-}
+}*/
 
 
 
@@ -74,6 +74,13 @@
 .section3 .pic {
 	position: relative;
 	margin-bottom: 20px;
+}
+
+.section3 .pic img{
+	height: 180px;
+	width: 100%;
+    object-fit:cover;
+    opacity: 0.5;
 }
 .section3 .pic .txt{
 	position: absolute;
